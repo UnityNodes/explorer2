@@ -1,0 +1,18 @@
+{
+    "chain_name": "selfchain-mainnet",
+    "api": ["https://api.unitynodes.com/selfchain-mainnet/"],
+    "rpc": ["https://rpc.unitynodes.com/selfchain-mainnet/"],
+    "sdk_version": "v0.45.12",
+    "coin_type": 118,
+    "min_tx_fee": 200,
+    "addr_prefix": "self",
+    "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/self.png",
+    "assets": [
+      {
+        "base": "uslf",
+        "symbol": "SLF",
+        "exponent": 6,
+        "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/self.png"
+      }
+    ]
+  }

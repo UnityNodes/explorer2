@@ -1,0 +1,16 @@
+{
+  "chain_name": "pell-testnet",
+  "api": ["https://api.unitynodes.com/pell-testnet/"],
+  "rpc": ["https://rpc.unitynodes.com/pell-testne/"],
+  "sdk_version": "v0.50.8",
+  "addr_prefix": "PELL",
+  "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/pell.png",
+  "assets": [
+    {
+      "base": "PELL",
+      "symbol": "PELL",
+      "exponent": 6,
+      "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/pell.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "chain_name": "Lava-Testnet",
+  "api": ["https://api.unitynodes.com/lava-testnet/"],
+  "rpc": ["https://rpc.unitynodes.com/lava-testnet/"],
+  "sdk_version": "v0.45.11",
+  "coin_type": 118,
+  "min_tx_fee": 200,
+  "addr_prefix": "lava@",
+  "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/lava.png",
+  "assets": [
+    {
+      "base": "ulava",
+      "symbol": "LAVA",
+      "exponent": 6,
+      "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/lava.png"
+    }
+  ]
+}

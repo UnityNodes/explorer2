@@ -1,0 +1,16 @@
+{
+  "chain_name": "Symphony-Testnet",
+  "api": ["https://api.unitynodes.com/symphony-testnet/"],
+  "rpc": ["https://rpc.unitynodes.com/symphony-testnet/"],
+  "sdk_version": "v0.47.8",
+  "addr_prefix": "MLD",
+  "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/symphony.png",
+  "assets": [
+    {
+      "base": "note",
+      "symbol": "MLD",
+      "exponent": 6,
+      "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/symphony.png"
+    }
+  ]
+}

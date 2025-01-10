@@ -1,0 +1,18 @@
+{
+  "chain_name": "nibiru-mainnet",
+  "api": ["https://api.unitynodes.com/nibiru-mainnet/"],
+  "rpc": ["https://rpc.unitynodes.com/nibiru-mainnet/"],
+  "sdk_version": "v0.45.12",
+  "coin_type": 118,
+  "min_tx_fee": 200,
+  "addr_prefix": "nibi",
+  "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/nibiru.png",
+  "assets": [
+    {
+      "base": "unibi",
+      "symbol": "NIBI",
+      "exponent": 6,
+      "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/nibiru.png"
+    }
+  ]
+}

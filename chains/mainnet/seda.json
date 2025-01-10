@@ -1,0 +1,18 @@
+{
+  "chain_name": "seda-mainnet",
+  "api": ["https://api.unitynodes.com/seda-mainnet/"],
+  "rpc": ["https://rpc.unitynodes.com/seda-mainnet/"],
+  "sdk_version": "v0.50.5",
+  "coin_type": 118,
+  "min_tx_fee": 200,
+  "addr_prefix": "seda",
+  "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/seda.png",
+  "assets": [
+    {
+      "base": "aseda",
+      "symbol": "seda",
+      "exponent": 18,
+      "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/seda.png"
+    }
+  ]
+}
