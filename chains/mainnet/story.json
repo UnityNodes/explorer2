@@ -1,7 +1,7 @@
 {
     "chain_name": "story-testnet",
-    "api": ["https://api.unitynodes.com/story-testnet/"],
-    "rpc": ["https://rpcW.unitynodes.com/story-testnet/"],
+    "api": ["https://api.unitynodes.com/story-testnet"],
+    "rpc": ["https://rpcW.unitynodes.com/story-testnet"],
     "sdk_version": "v0.50.7",
     "addr_prefix": "IP",
     "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/story.png",
