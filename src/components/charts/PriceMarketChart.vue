@@ -16,7 +16,7 @@ const kind = ref('price');
 const series = computed(() => {
     return [
         {
-            name: kind.value === 'price' ? 'Price' : 'Volume',
+            name: 'Price',
             data:
                 kind.value === 'price'
                     ? store.marketData.prices.map((item: any) => item[1])
