@@ -27,6 +27,7 @@ const blockchain = useBlockchain();
 blockchain.randomSetupEndpoint();
 const baseStore = useBaseStore();
 
+const logoAssetsPath = baseStore.theme === 'dark' ? '../../assets/logo-white.png' : '../../assets/logo-black.png'
 const current = ref(''); // the current chain
 const temp = ref('');
 blockchain.$subscribe((m, s) => {
@@ -87,7 +88,8 @@ dayjs();
     >
       <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
         <RouterLink to="/" class="flex items-center">
-          <img class="w-10 h-10" src="../../assets/logo.png" />
+        <img class="w-10 h-10" :src="logoAssetsPath" />
+
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
             Unity Nodes
           </h1>
