@@ -1,7 +1,7 @@
 {
   "chain_name": "nibiru-mainnet",
-  "api": ["https://api.unitynodes.com/nibiru-mainnet"],
-  "rpc": ["https://rpc.unitynodes.com/nibiru-mainnet"],
+  "api": ["https://api.unitynodes.app/nibiru-mainnet"],
+  "rpc": ["https://rpc.unitynodes.app/nibiru-mainnet"],
   "sdk_version": "v0.45.12",
   "coin_type": 118,
   "min_tx_fee": 200,

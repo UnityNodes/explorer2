@@ -1,7 +1,7 @@
 {
     "chain_name": "selfchain-mainnet",
-    "api": ["https://api.unitynodes.com/selfchain-mainnet"],
-    "rpc": ["https://rpc.unitynodes.com/selfchain-mainnet"],
+    "api": ["https://api.unitynodes.app/selfchain-mainnet"],
+    "rpc": ["https://rpc.unitynodes.app/selfchain-mainnet"],
     "sdk_version": "v0.45.12",
     "coin_type": 118,
     "min_tx_fee": 200,

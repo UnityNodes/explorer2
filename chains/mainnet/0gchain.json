@@ -1,7 +1,7 @@
 {
     "chain_name": "0gchain-testnet",
-    "api": ["https://api.unitynodes.com/0gchain-testnet"],
-    "rpc": ["https://rpc.unitynodes.com/0gchain-testnet"],
+    "api": ["https://api.unitynodes.app/0gchain-testnet"],
+    "rpc": ["https://rpc.unitynodes.app/0gchain-testnet"],
     "sdk_version": "v0.50.5",
     "addr_prefix": "a0gi",
     "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/0g.png",

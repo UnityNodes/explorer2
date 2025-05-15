@@ -1,7 +1,7 @@
 {
   "chain_name": "Warden-Testnet",
-  "api": ["https://api.unitynodes.com/warden-testnet"],
-  "rpc": ["https://rpc.unitynodes.com/warden-testnet"],
+  "api": ["https://api.unitynodes.app/warden-testnet"],
+  "rpc": ["https://rpc.unitynodes.app/warden-testnet"],
   "sdk_version": "v0.50.5",
   "addr_prefix": "uward",
   "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/warden.png",

@@ -1,7 +1,7 @@
 {
     "chain_name": "empeiria-testnet",
-    "api": ["https://api.unitynodes.com/empeiria-testnet"],
-    "rpc": ["https://rpc.unitynodes.com/empeiria-testnet"],
+    "api": ["https://api.unitynodes.app/empeiria-testnet"],
+    "rpc": ["https://rpc.unitynodes.app/empeiria-testnet"],
     "sdk_version": "v0.47.11",
     "addr_prefix": "uempe",
     "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/empeiria.png",
