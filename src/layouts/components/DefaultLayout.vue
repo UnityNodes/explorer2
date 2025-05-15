@@ -21,13 +21,15 @@ import type {
 } from '../types';
 import dayjs from 'dayjs';
 
+import logoWhite from '@/assets/logo-white.png';
+import logoBlack from '@/assets/logo-black.png';
+
 const dashboard = useDashboard();
 dashboard.initial();
 const blockchain = useBlockchain();
 blockchain.randomSetupEndpoint();
 const baseStore = useBaseStore();
 
-const logoAssetsPath = baseStore.theme === 'dark' ? '../../assets/logo-white.png' : '../../assets/logo-black.png'
 const current = ref(''); // the current chain
 const temp = ref('');
 blockchain.$subscribe((m, s) => {
@@ -74,6 +76,10 @@ const blocktime = computed(() => {
 const behind = computed(() => {
   const current = dayjs().subtract(10, 'minute');
   return blocktime.value.isBefore(current);
+});
+
+const logoAssetsPath = computed(() => {
+  return baseStore.theme === 'dark' ? logoWhite : logoBlack;
 });
 
 dayjs();
