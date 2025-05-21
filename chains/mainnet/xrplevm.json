@@ -4,13 +4,14 @@
   "rpc": ["https://rpc.unitynodes.app/xrplevm-testnet"],
   "sdk_version": "v0.50.13-xrplevm.2",
   "addr_prefix": "uPOA",
-  "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/warden.png",
+  "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/xrpl.png",
   "assets": [
     {
       "base": "uPOA",
       "symbol": "POA",
-      "exponent": 18,
-      "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/warden.png"
+      "exponent": 6,
+      "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/xrpl.png"
     }
   ]
 }
+
