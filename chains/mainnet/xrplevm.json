@@ -3,11 +3,11 @@
   "api": ["https://api.unitynodes.app/xrplevm-testnet"],
   "rpc": ["https://rpc.unitynodes.app/xrplevm-testnet"],
   "sdk_version": "v0.50.13-xrplevm.2",
-  "addr_prefix": "uPOA",
+  "addr_prefix": "POA",
   "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/xrpl.png",
   "assets": [
     {
-      "base": "uPOA",
+      "base": "POA",
       "symbol": "POA",
       "exponent": 6,
       "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/xrpl.png"
