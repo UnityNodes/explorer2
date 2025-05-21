@@ -1,0 +1,16 @@
+{
+  "chain_name": "XRPL-EVM",
+  "api": ["https://api.unitynodes.app/xrplevm-testnet"],
+  "rpc": ["https://rpc.unitynodes.app/xrplevm-testnet"],
+  "sdk_version": "v0.50.13-xrplevm.2",
+  "addr_prefix": "uPOA",
+  "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/warden.png",
+  "assets": [
+    {
+      "base": "uPOA",
+      "symbol": "POA",
+      "exponent": 18,
+      "logo": "https://raw.githubusercontent.com/UnityNodes/logo_chains/main/warden.png"
+    }
+  ]
+}
